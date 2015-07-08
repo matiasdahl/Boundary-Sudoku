@@ -28,7 +28,7 @@ See: [FindRightBorders.scala](./src/main/scala/FindRightBorders.scala)
 
 In Step 2 the code enumerates all possible top-right-bottom border configurations. This is done similarly to the previous step and gives (after reduction) 147372 configurations. In the reduction step, mirroring over the "/"-diagonal is replaced by mirroring over the vertical axis.
 
-See: [FindBottomRows.scala](./src/main/scala/FindBottomRows.scala)
+See: [FindBottomRows.scala](./src/main/scala/FindBottomBorders.scala)
 
 ## Step 3 (Left border)
 
