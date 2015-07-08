@@ -1,0 +1,11 @@
+#!/bin/bash
+
+date
+
+sbt 'run-main FindRightBorders' 
+
+sbt 'run-main FindBottomBorders' 
+
+python src-step3/step3.py > solutions.txt
+
+date
