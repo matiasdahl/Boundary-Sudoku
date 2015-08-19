@@ -4,9 +4,15 @@ For 4x4 Sudokus it is not difficult to find examples such that: *(1)* the hints 
 
 ![2x2 example](./images/2x2_example.png)
 
-For this 4x4 Sudoku, all the 12 boundary entries are given as hints, and there is only one way to complete the missing four entries in the middle. This is also true in general. For any valid 4x4 Sudoku, the entire board is determined by the digits on the boundary. (This is true since each piece in the middle is part of a 2x2 block with only one missing piece.)
+For this 4x4 Sudoku, all the 12 boundary entries are given as hints, and there is only one way to complete the missing four entries in the middle. [This is also true in general. For any valid 4x4 Sudoku, the entire board is determined by the digits on the boundary. This is true since each piece in the middle is part of a 2x2 block with only one missing piece.] 
 
-Motivated by the 4x4 case, we may ask if there are similar 9x9 Sudokus. In other words, is there any Sudoku board with the below hint pattern that has only one solution? 
+There are also 6x6 Sudokus. For these, there are 20 digits on the boundary, and 4x4=16 digits in the interior. The below configuration show that hints given on the boundary may determine the entire board also for 6x6 Sudokus.
+
+![6x6 example](./images/6x6_example.png)
+
+(This configuration was found by trial and error.)
+
+Motivated by the 4x4 and 6x6 cases, we may next ask if there are similar 9x9 Sudokus. In other words, is there any Sudoku board with the below hint pattern that has only one solution? 
 
 ![9x9 hint pattern](./images/9x9_hint_pattern.png)
 
